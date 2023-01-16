@@ -1,0 +1,82 @@
+#quote-box {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 550px;
+  height: auto;
+  background-color: rgba(255, 255, 255);
+  padding: 2.5em;
+  border-radius: 4px;
+  color: hsl(var(--theme-color), 50%, 50%);
+}
+
+.quote {
+  text-align: center;
+  /*   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start; */
+}
+
+.quote-icon {
+  font-size: 1.8rem;
+  margin-right: 0.2em;
+}
+
+#text {
+  display: inline;
+  font-size: 1.7rem;
+}
+
+#author {
+  text-align: end;
+  font-weight: 300;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  color: white !important;
+  height: 40px;
+}
+
+.social-icon {
+  background-color: hsl(var(--theme-color), 50%, 50%);
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  height: 40px;
+  padding: 0em 1.5em;
+}
+
+.social-icon:hover {
+  background-color: hsl(var(--theme-color), 50%, 60%);
+}
+
+#tweet-quote {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#new-quote {
+  height: 100%;
+  padding: 0.8em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: hsl(var(--theme-color), 50%, 50%);
+  color: white !important;
+  font-weight: bold;
+}
+
+#new-quote:hover {
+  background-color: hsl(var(--theme-color), 50%, 60%);
+}
