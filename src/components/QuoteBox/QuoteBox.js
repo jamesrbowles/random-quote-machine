@@ -19,7 +19,7 @@ const QuoteBox = ({ randomQuote, quoteIndex }) => {
       <h4 id="author">- {author}</h4>
       <div className="buttons">
         <div className="social-icon">
-          <a id="tweet-quote">
+          <a id="tweet-quote" href="twitter.com/intent/tweet">
             <BsTwitter />
           </a>
         </div>

@@ -7,7 +7,9 @@ import QuoteBox from "./components/QuoteBox/QuoteBox";
 import quotes from "./quotes";
 
 function App() {
-  const [quoteIndex, setQuoteIndex] = useState(0);
+  const [quoteIndex, setQuoteIndex] = useState(
+    Math.floor(Math.random() * quotes.length - 1)
+  );
   const [hue, setHue] = useState(Math.floor(Math.random() * 360));
   console.log(hue);
   const noRepeat = (num) => {

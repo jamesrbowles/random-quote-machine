@@ -13,6 +13,10 @@
   color: hsl(var(--theme-color), 50%, 50%);
 }
 
+a {
+  text-decoration: none;
+}
+
 .quote {
   text-align: center;
   /*   display: flex;
@@ -65,6 +69,7 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  color: white;
 }
 
 #new-quote {
